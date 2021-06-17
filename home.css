@@ -24,7 +24,6 @@
 
 #display{
     border: royalblue;
-    /* background-color: white; */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15vh;
@@ -33,7 +32,6 @@
 }
 
 .bottom {
-    /* background-color: rgba(235, 235, 235, 0.753); */
     margin: 0 10vw;
     display: flex;
     flex-direction: column;
@@ -79,11 +77,6 @@ table {
     margin: 1vw;
 }
 
-.tableimg {
-    max-width: 8vw;
-    max-height: 8vh;
-}
-
 .headertxt {
     background-color: white;
     font-weight: bolder;
@@ -91,4 +84,15 @@ table {
 
 #description {
     color: rgb(29, 55, 167);
+}
+
+img {
+    height: 1em;
+}
+
+
+.tableimg {
+    max-width: 8vw;
+    max-height: 8vh;
+    height: auto;
 }

@@ -49,22 +49,28 @@ function changeimg(){
 
         //set icon and map key to proper rarity/index
     var key = 0;
+    var icon = "";
     if(rarity == 4){
+        icon = "<img src=\"rarity/normal.png\">";
         key = Math.floor(Math.random()*14);   
     } else if (rarity == 3){
+        icon = "<img src=\"rarity/rare.png\">";
         key = Math.floor(Math.random()*5 + 14);  
     } else if (rarity == 2){
+        icon = "<img src=\"rarity/srare.png\">";
         key = Math.floor(Math.random()*4 + 19);   
     } else if (rarity == 1){
+        icon = "<img src=\"rarity/ssrare.png\">";
         key = Math.floor(Math.random()*4 + 23); 
     } else if (rarity == 0){
+        icon = "<img src=\"rarity/urare.png\">";
         key = Math.floor(Math.random()*3 + 27);   
     }
 
     //access object and properly display
     var div = document.getElementById("display");
     div.style.backgroundImage = berries.get(key).url;
-    document.getElementById("description").innerHTML = berries.get(key).description;
+    document.getElementById("description").innerHTML = icon + " " + berries.get(key).description;
 }
 
 function hashfunc(index){
