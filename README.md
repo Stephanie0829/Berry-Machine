@@ -12,7 +12,7 @@ Berries are classified into 5 categories: normal (N), rare (R), super rare (SR),
 * Utilized the math library
 * Used an exponential function as the hashfunction for choosing the correct N, R, SR, SSR, UR bucket
   * A random x mapped to these categories indexed 0-4
-  * function:  f(x) = -1.02^x + 51
+  * function:  f(x) = -1.02^x + 51   (found through testing with a graphing calculator)
   * Chosen so that a random number x in 1-198 (inclusive) would be mapped to a f(x) in the range 0 to 50
   * f(x) is then divided by 10 to limit the range to 0-4 (decimals starting with these integer values) and rounded down (using the truncation function) s.t the range is 0-4 inclusive
 * Within each bucket a specific berry is chosen
