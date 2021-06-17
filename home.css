@@ -1,0 +1,94 @@
+.screen{
+    background-image: url("bkgnd.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+}
+
+.header{
+    padding:10vh;
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-image: url("title.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#display{
+    border: royalblue;
+    /* background-color: white; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.bottom {
+    /* background-color: rgba(235, 235, 235, 0.753); */
+    margin: 0 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#statistics {
+    color: cornflowerblue;
+    display: none;
+}
+
+p {
+    font-size: 2.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgba(61, 152, 255, 1);
+    border-radius: 10%;
+    border: 1 solid;
+    border-color: rgb(34, 107, 172);
+    padding: 1vh 2vw 1vh 2vw;
+    margin: 1vw;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgb(142, 194, 255, 1);
+}
+
+#btn2 {
+    background-color: rgba(230, 241, 255, 0.89);;
+    color: rgb(3, 33, 66);
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.788);
+    overflow-y: scroll;
+    display: flex;
+    margin: 1vw;
+}
+
+.tableimg {
+    max-width: 8vw;
+    max-height: 8vh;
+}
+
+.headertxt {
+    background-color: white;
+    font-weight: bolder;
+}
+
+#description {
+    color: rgb(29, 55, 167);
+}

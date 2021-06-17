@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blueberry Page</title>
+        <link rel="stylesheet" href="home.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body class="screen">
+        <div class="container">
+            <div class="header"> </div>
+
+            <div class="bottom">
+                <div id="display"></div>
+                <p id="description"><span style="background-color: rgba(255, 255, 255, .5);">Test your luck!</span></p>
+                <div class= "buttons">
+                    <button id="btn" onclick="changeimg()"">Spin</button> 
+                    <button id="btn2" onclick="displaystats()">Rates</button>
+                </div>
+            </div>
+        </div>
+        <div id="statistics">
+            <table>
+                <tbody>
+                    <tbody class = "normal">
+                        <tr class = "headertxt"><td>Normal (N)</td></tr>
+                        <tr>
+                            <td><img src="berries/classicberry.png" alt="Classic berry" class="tableimg"></td>
+                            <td>Classic berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/mysterberry.png" alt="Mystery berry" class="tableimg"></td>
+                            <td>Mystery berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/lemonberry.png" alt="Lemon berry" class="tableimg"></td>
+                            <td>Lemon berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/orange.png" alt="Orange berry" class="tableimg"></td>
+                            <td>Orange berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/soot.png" alt="Soot berry" class="tableimg"></td>
+                            <td>Soot berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/clay.png" alt="Clay berry" class="tableimg"></td>
+                            <td>Clay berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/grape.png" alt="Grape berry" class="tableimg"></td>
+                            <td>Grape berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/sunset.png" alt="Sunset berry" class="tableimg"></td>
+                            <td>Sunset berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/turquoise.png" alt="Turquoise berry" class="tableimg"></td>
+                            <td>Turquoise berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/snow.png" alt="Snow berry" class="tableimg"></td>
+                            <td>Snow berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/blackberry.png" alt="Blackberry berry" class="tableimg"></td>
+                            <td>Blackberry berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/raspberry.png" alt="Raspberry berry" class="tableimg"></td>
+                            <td>Raspberry berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/strawberry.png" alt="Strawberry berry" class="tableimg"></td>
+                            <td>Strawberry berry</td><td>~4.4%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/flower.png" alt="Flower berry" class="tableimg"></td>
+                            <td>Flower berry</td><td>~4.4%</td>
+                        </tr>
+                    </tbody>
+                    <tbody class = "rare">
+                        <tr class = "headertxt"><td>Rare (R)</td></tr>
+                        <tr>
+                            <td><img src="berries/eraser.png" alt="Eraser berry" class="tableimg"></td>
+                            <td>Eraser berry</td><td>~3.3%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/space.png" alt="Space berry" class="tableimg"></td>
+                            <td>Space berry</td><td>~3.3%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/tulip.png" alt="Tulip berry" class="tableimg"></td>
+                            <td>Tulip berry</td><td>~3.3%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/cherrybsm.png" alt="Cherry berry" class="tableimg"></td>
+                            <td>Cherry berry</td><td>~3.3%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/redkoi.png" alt="Red koi berry" class="tableimg"></td>
+                            <td>Red koi berry</td><td>~3.3%</td>
+                        </tr>
+                    </tbody>
+                    <tbody class = "srare">
+                        <tr class = "headertxt"><td>Super Rare (SR)</td></tr>
+                        <tr>
+                            <td><img src="berries/beach.png" alt="Beach berry" class="tableimg"></td>
+                            <td>Beach berry</td><td>~2.5%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/glacier.png" alt="Glacier berry" class="tableimg"></td>
+                            <td>Glacier berry</td><td>~2.5%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/mint.png" alt="Peppermint berry" class="tableimg"></td>
+                            <td>Peppermint berry</td><td>~2.5%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/water.png" alt="Water berry" class="tableimg"></td>
+                            <td>Water berry</td><td>~2.5%</td>
+                        </tr>
+                    </tbody>
+                    <tbody class = "ssrare">
+                        <tr class = "headertxt"><td>Super Super Rare (SSR)</td></tr>
+                        <tr>
+                            <td><img src="berries/diamond.png" alt="Diamond berry" class="tableimg"></td>
+                            <td>Diamond berry</td><td>~2%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/peridot.png" alt="Peridot berry" class="tableimg"></td>
+                            <td>Peridot berry</td><td>~2%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/pinktourmaline.png" alt="Tourmaline berry" class="tableimg"></td>
+                            <td>Tourmaline berry</td><td>~2%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/topaz.png" alt="Topaz berry" class="tableimg"></td>
+                            <td>Topaz berry</td><td>~2%</td>
+                        </tr>
+                    </tbody>
+                    <tbody class = "urare">
+                        <tr class = "headertxt"><td>Ultra Rare (UR)</td></tr>
+                        <tr>
+                            <td><img src="berries/dragon.png" alt="Dragon berry" class="tableimg"></td>
+                            <td>Dragon berry</td><td>~1.7%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/flame.png" alt="Pheonix berry" class="tableimg"></td>
+                            <td>Pheonix berry</td><td>~1.7%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="berries/rainbow.png" alt="Unicorn berry" class="tableimg"></td>
+                            <td>Unicorn berry</td><td>~1.7%</td>
+                        </tr>
+                    </tbody>
+                </tbody>
+
+          </table>
+        </div>
+    </body>
+</html>
