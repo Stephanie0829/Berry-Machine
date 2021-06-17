@@ -18,7 +18,7 @@ Berries are classified into 5 categories: normal (N), rare (R), super rare (SR),
 * Within each bucket a specific berry is chosen
   * A random number is generated using the math library, corresponding to the indentification number of the berry within the map (the key)
 ## Future thoughts
-* There is a large amount of loading time to initialize the map and on each load of the "rates" button/tab as each url (30) is displayed with description (30) and other data
+* There is a large amount of loading time to initialize the map and on each load of the "rates" button/tab as each url is displayed with description and other data (repeated 30 times, each time for one item)
   * A better method would reduce such time so that the code is more optimized
 * More berries can be added, and rates can be adjusted with more interaction
 * Can implement change to the system such that with each "spin" one item is taken out from a total "pool" of items, with periodic refreshes with items
