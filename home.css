@@ -58,6 +58,7 @@ button {
     border-color: rgb(34, 107, 172);
     padding: 1vh 2vw 1vh 2vw;
     margin: 1vw;
+    font-size: 2.5vh;
     text-decoration: none;
 }
 
