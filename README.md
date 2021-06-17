@@ -1,4 +1,5 @@
 # Berry-Machine
+Link to website: https://stephanie0829.github.io/Berry-Machine/home.html
 Simple gacha game where user can randomly "spin" to recieve a berry.
 Berries are classified into 5 categories (normal (N), rare (R), SR, SSR, UR)
 ## Interface
