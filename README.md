@@ -3,6 +3,8 @@ Link to website: https://stephanie0829.github.io/Berry-Machine/home.html \
 Simple gacha game where user can randomly "spin" to recieve a berry from the machine.\
 Berries are classified into 5 categories: normal (N), rare (R), super rare (SR), super super rare (SSR), ultra rare (UR)
 ## Interface
+<img width="800" alt="Screen Shot 2021-08-31 at 2 32 13 PM" src="https://user-images.githubusercontent.com/72533858/131557122-441aa9f4-121e-4479-b310-a6144182a735.png">
+
 * Berries, title, background, and icons created using https://www.pixilart.com/
 * Used javascript to build the displaying of images and text upon user interaction
   * Used an object to hold image url and description of a berry
